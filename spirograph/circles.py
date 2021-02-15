@@ -12,11 +12,13 @@ def random_color():
     random_color = (r, g, b)
     return random_color
 
+def draw_spirograph(gap_size):
+    for line in range(int(360/gap_size)):
+        jackie.pencolor(random_color())
+        jackie.circle(70)
+        jackie.left(gap_size)
 
-for line in range(20):
-    jackie.pencolor(random_color())
-    jackie.circle(70)
-    jackie.left(18)
+draw_spirograph(5)
 
 screen = t.Screen()
 screen.exitonclick()
