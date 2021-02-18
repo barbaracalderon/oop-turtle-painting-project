@@ -23,5 +23,5 @@ for line in range(200):
     jackie.setheading(random.choice(direction))
 
 
-screen = Screen()
+screen = t.Screen()
 screen.exitonclick()
