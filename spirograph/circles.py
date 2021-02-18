@@ -18,7 +18,7 @@ def draw_spirograph(gap_size):
         jackie.circle(70)
         jackie.left(gap_size)
 
-draw_spirograph(5)
+draw_spirograph(1)
 
 screen = t.Screen()
 screen.exitonclick()
