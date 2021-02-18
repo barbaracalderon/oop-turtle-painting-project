@@ -2,7 +2,6 @@ from turtle import Turtle, Screen
 import random
 
 jackie = Turtle()
-jackie.shape("turtle")
 jackie.color("dark slate gray")
 
 colors = ["orange red", "red", "tomato", "light coral", "pink", "brown", "purple", "firebrick", "maroon"]
